@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antares</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="assets/alt.svg" type="image/x-icon">
+    <title>GEO</title>
+    <link rel="shortcut icon" href="assets/icons8-internet-48.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="main">
 
-    
-    <main>
+        <div class="left">
 
-        <form action="pages.html">
+            <h1>Faça login e utilize o GEO </h1>
+            <img src="assets/World-rafiki.svg" alt="imagem">
 
-            <h1>Log in to Antares</h1>
+        </div>
+        <div class="right">
 
-            <div class="textfield">
-                <i class="bi bi-person-circle"></i>
-                <input type="text" placeholder="Usuário" required>
+            <div class="card">
+
+                <h1>LOGIN </h1>
+                <div class="textfield">
+
+                  
+                    <input id="usuario" type="text" placeholder="Digite seu usuário">
+
+
+                </div>
+
+                <div class="textfield">
+
+                    
+                    <input id="senha" type="password" placeholder="Digite sua senha">
+
+
+                </div>
+
+                <button class="btn-login">
+
+                    Login
+                </button>
+
             </div>
 
-            <div class="textfield">
-                <i class="bi bi-key-fill"></i>
-                <input type="password" placeholder="Senha" required>
-            </div>
+        </div>
 
-            <button type="submit" class="btn-login">Log in</button>
-        </form>
-    </main>
-    
+    </div>
 </body>
+
 </html>
